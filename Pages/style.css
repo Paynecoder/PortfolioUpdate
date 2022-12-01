@@ -45,7 +45,7 @@ body {
 .typewriter h1 {
   display: block;
   color: #fff;
-  font-size: 110px;
+  font-size: 80px;
   font-family: "VT323";
   font-weight: 550;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -86,7 +86,7 @@ body {
 
 .exploretxt {
   color: #fff;
-  font-size: 90px;
+  font-size: 60px;
   font-family: "VT323";
   font-weight: 450;
 }
@@ -109,7 +109,7 @@ body {
 .sectiontwoheadtxt {
   font-family: "VT323";
   color: #fff;
-  font-size: 90px;
+  font-size: 60px;
   font-weight: 450;
 }
 
@@ -128,6 +128,7 @@ body {
   width: 800px;
   border-radius: 10px;
   background-color: #36454f;
+  overflow: hidden;
 }
 
 .Past {
@@ -136,6 +137,7 @@ body {
   width: 800px;
   border-radius: 10px;
   background-color: #36454f;
+  overflow: hidden;
 }
 
 .currentext {
@@ -144,7 +146,7 @@ body {
   font-family: "VT323";
   color: #fff;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .pastext {
@@ -153,7 +155,7 @@ body {
   font-family: "VT323";
   color: #fff;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .currentimg {
@@ -190,7 +192,7 @@ body {
   font-family: "VT323";
   color: #fff;
   font-weight: 400;
-  font-size: 75px;
+  font-size: 60px;
 }
 
 .hobby1img {
@@ -227,7 +229,7 @@ body {
 .section3headtext {
   font-family: "VT323";
   color: #fff;
-  font-size: 90px;
+  font-size: 60px;
   font-weight: 450;
   margin-top: -115px;
 }
@@ -239,6 +241,7 @@ body {
 
 /* SKILLS */
 .skills {
+  flex-wrap: wrap;
   display: flex;
   flex-direction: column;
   gap: 150px;
@@ -308,7 +311,7 @@ body {
 .sectionfourheadtxt {
   font-family: "VT323";
   color: #fff;
-  font-size: 90px;
+  font-size: 60px;
   font-weight: 450;
   text-align: center;
 }
@@ -337,23 +340,26 @@ body {
   font-size: 25px;
   background-color: #000000;
   color: #fff;
-  margin-left: 850px;
+  margin-left: 75%;
 }
 
 .project {
   float: left;
-  width: 28%;
+
+  overflow: hidden;
 }
 
 .image1 {
   height: 500px;
   width: 410px;
+  margin-right: 20px;
 }
 
 .describe {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  margin-left: -10px;;
 }
 
 .imagetitle1 {
@@ -376,3 +382,112 @@ body {
   height: 100px;
   width: 100px;
 }
+
+
+/* MOBILE VIEW */
+@media screen and (max-width: 600px) {
+  .typewriter h1 {
+    font-size: 35px;
+  }
+
+  .exploretxt {
+    font-size: 30px;
+  }
+
+  .descbox {
+    flex-direction: column;
+
+  }
+
+  .Current {
+    width: 575px;
+  }
+  .Past {
+    width: 575px;
+  }
+  
+  .hobbies-text {
+    font-size: 30px;
+  }
+
+  .hobby1img {
+    width: 50px;
+    height: 50px;
+  }
+  .hobby2img {
+    width: 50px;
+    height: 50px;
+  }
+  .hobby3img {
+    width: 50px;
+    height: 50px;
+  }
+  .hobby4img {
+    width: 50px;
+    height: 50px;
+  }
+  .hobby5img {
+    width: 50px;
+    height: 50px;
+  }
+
+ .skillstop {
+  flex-direction: column;
+  gap: 25px;
+}
+
+.skillbottom {
+  flex-direction: column;
+  gap: 25px;
+
+}
+
+.section3headtext {
+  margin-top: 115px;
+}
+
+.skills {
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+
+.sectionfour {
+  flex-wrap: wrap;
+}
+
+
+.sectionfourhead {
+  margin-top: 115px;
+}
+
+.containermain {
+  flex-wrap: wrap;
+  height: 100%;
+  width: 68%;
+
+}
+
+
+.describe {
+  justify-content: center;
+}
+
+.imagetitle1 {
+  text-align: center;
+}
+
+.imagetxt1 {
+  text-align: center;
+}
+
+.imageskill1_1 {
+  margin-left: 20px;
+}
+
+.NextProject {
+  margin-left: 65%;
+  margin-bottom: 25px;
+}
+
+}
+
