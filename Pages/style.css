@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+@font-face {
+  font-family: VT323;
+  src: url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0px;
+}
+
+body {
+  background-image: linear-gradient(to right, #2c3e50, #000000);
+}
+
+/*SECTION 1 NAME*/
+
+.sectionone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* TYPEWRITER */
+.TextWrite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+/*found this effect online*/
+
+.typewriter h1 {
+  display: block;
+  color: #fff;
+  font-size: 110px;
+  font-family: "VT323";
+  font-weight: 550;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.4s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+/*Subtext*/
+
+.explore {
+  display: flex;
+  height: fit-content;
+}
+
+.exploretxt {
+  color: #fff;
+  font-size: 90px;
+  font-family: "VT323";
+  font-weight: 450;
+}
+
+/* SECTION 2 INTRO + HOBBIES */
+
+/* BIO TEXT*/
+.sectiontwo {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 50px;
+}
+.sectiontwohead {
+  text-align: center;
+  height: fit-content;
+  margin-top: 115px;
+}
+
+.sectiontwoheadtxt {
+  font-family: "VT323";
+  color: #fff;
+  font-size: 90px;
+  font-weight: 450;
+}
+
+/*BIOS*/
+.descbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 35px;
+  height: fit-content;
+  margin-top: -75px;
+}
+.Current {
+  display: flex;
+  height: 400px;
+  width: 800px;
+  border-radius: 10px;
+  background-color: #36454f;
+}
+
+.Past {
+  display: flex;
+  height: 400px;
+  width: 800px;
+  border-radius: 10px;
+  background-color: #36454f;
+}
+
+.currentext {
+  margin-left: 35px;
+  margin-top: 35px;
+  font-family: "VT323";
+  color: #fff;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.pastext {
+  margin-left: 35px;
+  margin-top: 35px;
+  font-family: "VT323";
+  color: #fff;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.currentimg {
+  align-self: flex-end;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+.pastimg {
+  align-self: flex-end;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+/*HOBBIES*/
+.hobbycontain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.hobby2img {
+  height: 100px;
+  width: 100px;
+}
+
+.hobbies-text {
+  font-family: "VT323";
+  color: #fff;
+  font-weight: 400;
+  font-size: 75px;
+}
+
+.hobby1img {
+  width: 100px;
+  height: 100px;
+}
+
+.hobby3img {
+  width: 100px;
+  height: 100px;
+}
+
+.hobby4img {
+  width: 100px;
+  height: 100px;
+}
+
+  .hobby5img {
+  width: 100px;
+  height: 100px;
+}
+
+/* SECTION 3 SKILLS */
+
+/*SKILLS TEXT*/
+.sectionthree {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.section3headtext {
+  font-family: "VT323";
+  color: #fff;
+  font-size: 90px;
+  font-weight: 450;
+  margin-top: -115px;
+}
+
+.section3head {
+  height: fit-content;
+  margin-top: 115px;
+}
+
+/* SKILLS */
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  align-self: center;
+  margin: 0px;
+}
+
+.skillyimg {
+  height: 125px;
+  width: 125px;
+}
+
+.skillstop {
+  display: flex;
+  flex-direction: row;
+  gap: 225px;
+}
+
+.skillbottom {
+  display: flex;
+  flex-direction: row;
+  gap: 225px;
+}
+
+
+.skilly {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.progress {
+  margin:20px auto;
+  padding:0;
+  width: 125px;
+  height:45px;
+  overflow:hidden;
+  background:#e5e5e5;
+  border-radius:6px;
+}
+
+.bar {
+  float: left;
+  background:green;
+}
+
+.percent {
+  font-family: 'VT323';
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  
+
+}
+
+/*FINAL SECTION */
+
+.sectionfour {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.sectionfourheadtxt {
+  font-family: "VT323";
+  color: #fff;
+  font-size: 90px;
+  font-weight: 450;
+  text-align: center;
+}
+
+.sectionfourhead {
+  margin-top: -115px;
+  display: flex;
+  height: fit-content;
+}
+
+.containermain {
+  background-color: #36454f;
+  width: 80%;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+.NextProject {
+  height: 75px;
+  width: 130px;
+  border-radius: 10px;
+  font-family: 'VT323';
+  font-weight: 450;
+  font-size: 25px;
+  background-color: #000000;
+  color: #fff;
+  margin-left: 850px;
+}
+
+.project {
+  float: left;
+  width: 28%;
+}
+
+.image1 {
+  height: 500px;
+  width: 410px;
+}
+
+.describe {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.imagetitle1 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-family: 'VT323';
+  font-weight: 450;
+  color: #add8e6;
+  font-size: 75px;
+}
+
+.imagetxt1 {
+  font-family: 'VT323';
+  font-weight: 450;
+  color: #add8e6;
+  font-size: 45px;
+}
+
+.imageskill1_1 {
+  height: 100px;
+  width: 100px;
+}
