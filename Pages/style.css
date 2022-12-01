@@ -9,8 +9,6 @@
   box-sizing: border-box;
 }
 
-
-
 html,
 body {
   max-width: 100%;
@@ -210,7 +208,7 @@ body {
   height: 100px;
 }
 
-  .hobby5img {
+.hobby5img {
   width: 100px;
   height: 100px;
 }
@@ -266,7 +264,6 @@ body {
   gap: 225px;
 }
 
-
 .skilly {
   display: flex;
   justify-content: center;
@@ -275,27 +272,25 @@ body {
 }
 
 .progress {
-  margin:20px auto;
-  padding:0;
+  margin: 20px auto;
+  padding: 0;
   width: 125px;
-  height:45px;
-  overflow:hidden;
-  background:#e5e5e5;
-  border-radius:6px;
+  height: 45px;
+  overflow: hidden;
+  background: #e5e5e5;
+  border-radius: 6px;
 }
 
 .bar {
   float: left;
-  background:green;
+  background: green;
 }
 
 .percent {
-  font-family: 'VT323';
+  font-family: "VT323";
   font-size: 15px;
   text-align: center;
   color: #fff;
-  
-
 }
 
 /*FINAL SECTION */
@@ -328,14 +323,13 @@ body {
   height: 500px;
   border-radius: 10px;
   overflow: hidden;
-
 }
 
 .NextProject {
   height: 75px;
   width: 130px;
   border-radius: 10px;
-  font-family: 'VT323';
+  font-family: "VT323";
   font-weight: 450;
   font-size: 25px;
   background-color: #000000;
@@ -359,20 +353,20 @@ body {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin-left: -10px;;
+  margin-left: -10px;
 }
 
 .imagetitle1 {
   margin-top: 10px;
   margin-bottom: 0px;
-  font-family: 'VT323';
+  font-family: "VT323";
   font-weight: 450;
   color: #add8e6;
   font-size: 75px;
 }
 
 .imagetxt1 {
-  font-family: 'VT323';
+  font-family: "VT323";
   font-weight: 450;
   color: #add8e6;
   font-size: 45px;
@@ -383,8 +377,8 @@ body {
   width: 100px;
 }
 
-
 /* MOBILE VIEW */
+
 @media screen and (max-width: 600px) {
   .typewriter h1 {
     font-size: 35px;
@@ -396,7 +390,6 @@ body {
 
   .descbox {
     flex-direction: column;
-
   }
 
   .Current {
@@ -405,7 +398,7 @@ body {
   .Past {
     width: 575px;
   }
-  
+
   .hobbies-text {
     font-size: 30px;
   }
@@ -431,63 +424,57 @@ body {
     height: 50px;
   }
 
- .skillstop {
-  flex-direction: column;
-  gap: 25px;
+  .skillstop {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .skillbottom {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .section3headtext {
+    margin-top: 115px;
+  }
+
+  .skills {
+    flex-direction: row;
+    margin-bottom: 25px;
+  }
+
+  .sectionfour {
+    flex-wrap: wrap;
+  }
+
+  .sectionfourhead {
+    margin-top: 115px;
+  }
+
+  .containermain {
+    flex-wrap: wrap;
+    height: 100%;
+    width: 68%;
+  }
+
+  .describe {
+    justify-content: center;
+  }
+
+  .imagetitle1 {
+    text-align: center;
+  }
+
+  .imagetxt1 {
+    text-align: center;
+  }
+
+  .imageskill1_1 {
+    margin-left: 20px;
+  }
+
+  .NextProject {
+    margin-left: 65%;
+    margin-bottom: 25px;
+  }
 }
-
-.skillbottom {
-  flex-direction: column;
-  gap: 25px;
-
-}
-
-.section3headtext {
-  margin-top: 115px;
-}
-
-.skills {
-  flex-direction: row;
-  margin-bottom: 25px;
-}
-
-.sectionfour {
-  flex-wrap: wrap;
-}
-
-
-.sectionfourhead {
-  margin-top: 115px;
-}
-
-.containermain {
-  flex-wrap: wrap;
-  height: 100%;
-  width: 68%;
-
-}
-
-
-.describe {
-  justify-content: center;
-}
-
-.imagetitle1 {
-  text-align: center;
-}
-
-.imagetxt1 {
-  text-align: center;
-}
-
-.imageskill1_1 {
-  margin-left: 20px;
-}
-
-.NextProject {
-  margin-left: 65%;
-  margin-bottom: 25px;
-}
-
-}
-
